@@ -6,6 +6,7 @@
 #include <QLabel>
 
 
+
 namespace Ui {
 class TestScrollText;
 }
@@ -19,6 +20,8 @@ public:
     ~TestScrollText();
 private slots:
     void scrollCaption();
+    void on_closeBtn_clicked();
+
 private:
     Ui::TestScrollText *ui;
 private:
